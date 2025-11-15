@@ -4,7 +4,7 @@ import react from '@vitejs/plugin-react';
 export default defineConfig(({ mode }) => {
   const isDev = mode !== 'production';
 
-  const basePath = isDev ? '/' : '/forms/';
+  const basePath = isDev ? '/' : '/forms_yup/';
 
   return {
     base: basePath,
